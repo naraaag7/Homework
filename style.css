@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vw;
+    background: #333;
+  }
+  
+  .glass {
+    background: rgba(154, 108, 108, 0.2);
+    border: 1px solid rgba(34, 39, 38, 0.3);
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 5%;
+    font-size: 16px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .glass:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .neomorph {
+    background: #e0e0e0;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 30px;
+    margin: 5%;
+    font-size: 16px;
+    color: #333;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .neomorph:active{
+    box-shadow: inset 6px 6px 12px #ada3a3, inset -6px -6px 12px #ffffff;
+  }
+  
+  .styled{
+    transition: background-color 0.3s ease, margin 0.3s ease;
+    background-color: pink;
+    margin: 5%;
+  }
